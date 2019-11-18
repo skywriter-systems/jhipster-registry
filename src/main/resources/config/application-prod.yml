@@ -26,8 +26,8 @@ spring:
         password:
     security:
         user:
-            name: admin
-            password: admin
+            name: ${JHIPSTER_USERNAME:false}
+            password: ${JHIPSTER_PASSWORD:false}
             role: USER,ADMIN
 
 # ===================================================================
